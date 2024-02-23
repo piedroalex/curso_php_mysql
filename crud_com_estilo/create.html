@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Novo Usuário</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        form {
+            margin: 20px 0;
+        }
+        input[type="text"] {
+            width: 250px;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h2>Novo Usuário</h2>
+    <form method="post" action="create.php">
+        Nome: <input type="text" name="nome"><br>
+        Email: <input type="text" name="email"><br>
+        <input type="submit" value="Salvar">
+    </form>
+</body>
+</html>
